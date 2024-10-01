@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, D:/Program_Files/QuartusIIWeb13/practs/pract3/pract3.bdf
+source_file = 1, D:/Program_Files/QuartusIIWeb13/practs/pract3/db/pract3.cbx.xml
+design_name = pract3
+instance = comp, \0~output\, 0~output, pract3, 1
+instance = comp, \1~output\, 1~output, pract3, 1
+instance = comp, \2~output\, 2~output, pract3, 1
+instance = comp, \3~output\, 3~output, pract3, 1
+instance = comp, \4~output\, 4~output, pract3, 1
+instance = comp, \5~output\, 5~output, pract3, 1
+instance = comp, \6~output\, 6~output, pract3, 1
+instance = comp, \7~output\, 7~output, pract3, 1
+instance = comp, \E~input\, E~input, pract3, 1
+instance = comp, \X0~input\, X0~input, pract3, 1
+instance = comp, \X1~input\, X1~input, pract3, 1
+instance = comp, \X2~input\, X2~input, pract3, 1
