@@ -1,0 +1,12 @@
+|pract1
+Y <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => AD.IN0
+A => inst.IN0
+D => CD.IN0
+D => AD.IN1
+D => BD.IN0
+C => CD.IN1
+B => BD.IN1
+B => inst.IN3
+
+
