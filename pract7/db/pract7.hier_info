@@ -1,0 +1,17 @@
+|pract7
+clock => state3.CLK
+clock => state2.CLK
+clock => state1.CLK
+clock => state0.CLK
+a => st0a0.IN0
+a => st0a1.IN0
+b => st7b0.IN0
+b => st7b1.IN0
+b => st11b0.IN0
+b => st11b1.IN0
+q3 <= state3.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= state2.DB_MAX_OUTPUT_PORT_TYPE
+q1 <= state1.DB_MAX_OUTPUT_PORT_TYPE
+q0 <= state0.DB_MAX_OUTPUT_PORT_TYPE
+
+

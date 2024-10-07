@@ -1,0 +1,60 @@
+SUBDESIGN 'pract7'
+(
+    clock, a, b : INPUT;   
+    q3, q2, q1, q0  : OUTPUT;  
+)
+VARIABLE
+	state3, state2, state1, state0 : DFF;  
+	st0, st1, st2, st3, st4, st5, st6, st7, st8, st9, st10, st11, st12, st13, st14, st15 : NODE;	 
+	st0a0, st0a1, st7b0, st7b1, st11b0, st11b1 : NODE;
+	newq3, newq2, newq1, newq0 : NODE;	
+BEGIN
+    state3.clk = clock;  
+	 state2.clk = clock; 
+    state1.clk = clock;  
+    state0.clk = clock;  
+
+	 
+	st0  = !q3 & !q2 & !q1 & !q0;
+	st1  = !q3 & !q2 & !q1 & q0;
+	st2  = !q3 & !q2 & q1 & !q0;
+	st3  = !q3 & !q2 & q1 & q0;
+	st4  = !q3 & q2 & !q1 & !q0;
+	st5  = !q3 & q2 & !q1 & q0;
+	st6  = !q3 & q2 & q1 & !q0;
+	st7  = !q3 & q2 & q1 & q0;
+	st8  = q3 & !q2 & !q1 & !q0;
+	st9  = q3 & !q2 & !q1 & q0;
+	st10 = q3 & !q2 & q1 & !q0;
+	st11 = q3 & !q2 & q1 & q0;
+	st12 = q3 & q2 & !q1 & !q0;
+	st13 = q3 & q2 & !q1 & q0;
+	st14 = q3 & q2 & q1 & !q0;
+	st15 = q3 & q2 & q1 & q0;
+
+	st0a0   = !a & st0;
+	st0a1   = a & st0;
+
+	st7b0   = !b & st7;
+	st7b1   = b & st7;
+
+	st11b0  = !b & st11;
+	st11b1  = b & st11;
+
+	
+	newq3 = st0a0 # st14 # st2 # st13 # st10 # st3 # st11b0 # st12 # st1;
+	newq2 = st0a0 # st8 # st7b0 # st7b1 # st2 # st10 # st15 # st11b0;
+	newq1 = st0a0 # st0a1 # st8 # st7b1 # st4 # st13 # st10 # st3 # st9 # st6;
+	newq0 = st0a1 # st8 # st2 # st10 # st15 # st3 # st11b1 # st12 # st1;
+	
+	
+    state3 = newq3; 	 
+    state2 = newq2; 
+    state1 = newq1;       
+    state0 = newq0;       
+
+    q3 = state3;       
+    q2 = state2;  
+    q1 = state1;  
+    q0 = state0;  	 
+END;
