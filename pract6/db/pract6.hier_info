@@ -1,0 +1,16 @@
+|pract6
+q[0] <= inst01.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= inst321.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= inst1232.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= inst353.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst01.CLK
+clock => inst321.CLK
+clock => inst1232.CLK
+clock => inst353.CLK
+a => inst24.IN0
+a => inst101.IN0
+b => inst28.IN0
+b => inst26.IN0
+b => inst22.IN0
+
+
