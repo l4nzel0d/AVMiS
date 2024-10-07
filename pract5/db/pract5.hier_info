@@ -1,0 +1,91 @@
+|pract5
+Y0 <= lpm_decode0:inst.eq0
+E => lpm_decode0:inst.enable
+X[0] => lpm_decode0:inst.data[0]
+X[1] => lpm_decode0:inst.data[1]
+X[2] => lpm_decode0:inst.data[2]
+Y1 <= lpm_decode0:inst.eq1
+Y2 <= lpm_decode0:inst.eq2
+Y3 <= lpm_decode0:inst.eq3
+Y4 <= lpm_decode0:inst.eq4
+Y5 <= lpm_decode0:inst.eq5
+Y6 <= lpm_decode0:inst.eq6
+Y7 <= lpm_decode0:inst.eq7
+
+
+|pract5|lpm_decode0:inst
+data[0] => lpm_decode:LPM_DECODE_component.data[0]
+data[1] => lpm_decode:LPM_DECODE_component.data[1]
+data[2] => lpm_decode:LPM_DECODE_component.data[2]
+enable => lpm_decode:LPM_DECODE_component.enable
+eq0 <= lpm_decode:LPM_DECODE_component.eq[0]
+eq1 <= lpm_decode:LPM_DECODE_component.eq[1]
+eq2 <= lpm_decode:LPM_DECODE_component.eq[2]
+eq3 <= lpm_decode:LPM_DECODE_component.eq[3]
+eq4 <= lpm_decode:LPM_DECODE_component.eq[4]
+eq5 <= lpm_decode:LPM_DECODE_component.eq[5]
+eq6 <= lpm_decode:LPM_DECODE_component.eq[6]
+eq7 <= lpm_decode:LPM_DECODE_component.eq[7]
+
+
+|pract5|lpm_decode0:inst|lpm_decode:LPM_DECODE_component
+data[0] => decode_f3g:auto_generated.data[0]
+data[1] => decode_f3g:auto_generated.data[1]
+data[2] => decode_f3g:auto_generated.data[2]
+enable => decode_f3g:auto_generated.enable
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+eq[0] <= decode_f3g:auto_generated.eq[0]
+eq[1] <= decode_f3g:auto_generated.eq[1]
+eq[2] <= decode_f3g:auto_generated.eq[2]
+eq[3] <= decode_f3g:auto_generated.eq[3]
+eq[4] <= decode_f3g:auto_generated.eq[4]
+eq[5] <= decode_f3g:auto_generated.eq[5]
+eq[6] <= decode_f3g:auto_generated.eq[6]
+eq[7] <= decode_f3g:auto_generated.eq[7]
+
+
+|pract5|lpm_decode0:inst|lpm_decode:LPM_DECODE_component|decode_f3g:auto_generated
+data[0] => w_anode18w[1].IN1
+data[0] => w_anode1w[1].IN0
+data[0] => w_anode28w[1].IN0
+data[0] => w_anode38w[1].IN1
+data[0] => w_anode48w[1].IN0
+data[0] => w_anode58w[1].IN1
+data[0] => w_anode68w[1].IN0
+data[0] => w_anode78w[1].IN1
+data[1] => w_anode18w[2].IN0
+data[1] => w_anode1w[2].IN0
+data[1] => w_anode28w[2].IN1
+data[1] => w_anode38w[2].IN1
+data[1] => w_anode48w[2].IN0
+data[1] => w_anode58w[2].IN0
+data[1] => w_anode68w[2].IN1
+data[1] => w_anode78w[2].IN1
+data[2] => w_anode18w[3].IN0
+data[2] => w_anode1w[3].IN0
+data[2] => w_anode28w[3].IN0
+data[2] => w_anode38w[3].IN0
+data[2] => w_anode48w[3].IN1
+data[2] => w_anode58w[3].IN1
+data[2] => w_anode68w[3].IN1
+data[2] => w_anode78w[3].IN1
+enable => w_anode18w[1].IN0
+enable => w_anode1w[1].IN0
+enable => w_anode28w[1].IN0
+enable => w_anode38w[1].IN0
+enable => w_anode48w[1].IN0
+enable => w_anode58w[1].IN0
+enable => w_anode68w[1].IN0
+enable => w_anode78w[1].IN0
+eq[0] <= w_anode1w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[1] <= w_anode18w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[2] <= w_anode28w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[3] <= w_anode38w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[4] <= w_anode48w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[5] <= w_anode58w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[6] <= w_anode68w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[7] <= w_anode78w[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

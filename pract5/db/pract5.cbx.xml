@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="pract5">
+		<CBX_INST_ENTRY INSTANCE_NAME="|pract5|lpm_decode0:inst|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_f3g.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
