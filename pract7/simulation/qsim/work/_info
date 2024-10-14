@@ -80,31 +80,31 @@ Z28 !s100 ICjWGW6RFAV7;9d0L[81c2
 !s85 0
 !s101 -O0
 vpract7
-Z29 IIHZ[KfDi3M;4c6aN64Qk91
-Z30 Vh>8O@khBM@=MS5zRNWoh51
-Z31 dB:\Quartus\quartus\practs\AVMiS\pract7\simulation\qsim
-Z32 w1728327246
-Z33 8pract7.vo
-Z34 Fpract7.vo
+Z29 !s100 g35aXEgo6I;O]dBnMz9K11
+Z30 IIHZ[KfDi3M;4c6aN64Qk91
+Z31 Vh>8O@khBM@=MS5zRNWoh51
+Z32 dD:\Program_Files\QuartusIIWeb13\practs\pract7\simulation\qsim
+Z33 w1728925499
+Z34 8pract7.vo
+Z35 Fpract7.vo
 L0 31
 R8
 r1
 31
-Z35 !s90 -work|work|pract7.vo|
+Z36 !s90 -work|work|pract7.vo|
 R10
 !i10b 1
-Z36 !s100 g35aXEgo6I;O]dBnMz9K11
 !s85 0
-Z37 !s108 1728327246.955000
+Z37 !s108 1728925500.168000
 Z38 !s107 pract7.vo|
 !s101 -O0
 vpract7_vlg_check_tst
 !i10b 1
-!s100 3HA49RkdnFRMYB]o1>o:h1
-I`W5NaK_?PTHQgiHjcWeT30
-VY`>o>Q[:VDdZa4C3LQHFl0
-R31
-Z39 w1728327245
+Z39 !s100 3HA49RkdnFRMYB]o1>o:h1
+Z40 I`W5NaK_?PTHQgiHjcWeT30
+Z41 VY`>o>Q[:VDdZa4C3LQHFl0
+R32
+R33
 R17
 R18
 L0 61
@@ -112,18 +112,18 @@ R8
 r1
 !s85 0
 31
-Z40 !s108 1728327247.050000
-Z41 !s107 Waveform.vwf.vt|
+Z42 !s108 1728925500.237000
+Z43 !s107 Waveform.vwf.vt|
 R21
 !s101 -O0
 R10
 vpract7_vlg_sample_tst
 !i10b 1
-!s100 5k]M9BcVbz@KGTozb=`OR1
-IIJ@:M8al2JeO1@;>CNHag3
-ViQc8IJ^la2fncg_[iaUEV1
-R31
-R39
+Z44 !s100 5k]M9BcVbz@KGTozb=`OR1
+Z45 IIJ@:M8al2JeO1@;>CNHag3
+Z46 ViQc8IJ^la2fncg_[iaUEV1
+R32
+R33
 R17
 R18
 L0 29
@@ -131,27 +131,27 @@ R8
 r1
 !s85 0
 31
-R40
-R41
+R42
+R43
 R21
 !s101 -O0
 R10
 vpract7_vlg_vec_tst
 !i10b 1
-!s100 SbC69`:lIgoU;:Ff>DFc^1
-IQN:dNlC5hgR8Rh<:zn8VW2
-Z42 V<837H6ER2o4?WGk7CcgMM1
-R31
-R39
+Z47 !s100 SbC69`:lIgoU;:Ff>DFc^1
+Z48 IQN:dNlC5hgR8Rh<:zn8VW2
+Z49 V<837H6ER2o4?WGk7CcgMM1
+R32
+R33
 R17
 R18
-L0 237
+Z50 L0 237
 R8
 r1
 !s85 0
 31
-R40
-R41
+R42
+R43
 R21
 !s101 -O0
 R10
