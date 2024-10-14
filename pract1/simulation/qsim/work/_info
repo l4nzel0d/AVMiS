@@ -4,78 +4,78 @@ K3
 cModel Technology
 Z0 dD:\Program_Files\QuartusIIWeb13\practs\pract1\simulation\qsim
 vpract1
-Z1 ICQJ5m_6L@5Q;hh2cjZW=]3
-Z2 VgB16Y;NBRhl]bUNB9SGV@0
-Z3 dD:\Program_Files\QuartusIIWeb13\practs\pract1\simulation\qsim
-Z4 w1727804931
-Z5 8pract1.vo
-Z6 Fpract1.vo
+Z1 !s100 iPjX_nK=lkghYJNh93X@j1
+Z2 ICQJ5m_6L@5Q;hh2cjZW=]3
+Z3 VgB16Y;NBRhl]bUNB9SGV@0
+Z4 dD:\Program_Files\QuartusIIWeb13\practs\pract1\simulation\qsim
+Z5 w1728923392
+Z6 8pract1.vo
+Z7 Fpract1.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
+Z9 !s90 -work|work|pract1.vo|
+Z10 o-work work -O0
 !i10b 1
-Z9 !s100 iPjX_nK=lkghYJNh93X@j1
 !s85 0
-Z10 !s108 1727804932.529000
-Z11 !s107 pract1.vo|
-Z12 !s90 -work|work|pract1.vo|
+Z11 !s108 1728923392.597000
+Z12 !s107 pract1.vo|
 !s101 -O0
 vpract1_vlg_check_tst
 !i10b 1
-!s100 TYTBSdRUV=L5j79LDNn0E1
-I1J4ZM:gKC?@2aj9@YzjKV1
-V6FR700S@A74Mz<XgAUi042
-R3
-Z13 w1727804930
-Z14 8Waveform.vwf.vt
-Z15 FWaveform.vwf.vt
+Z13 !s100 TYTBSdRUV=L5j79LDNn0E1
+Z14 I1J4ZM:gKC?@2aj9@YzjKV1
+Z15 V6FR700S@A74Mz<XgAUi042
+R4
+Z16 w1728923391
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
 L0 63
-R7
+R8
 r1
 !s85 0
 31
-Z16 !s108 1727804932.562000
-Z17 !s107 Waveform.vwf.vt|
-Z18 !s90 -work|work|Waveform.vwf.vt|
+Z19 !s108 1728923392.664000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
 !s101 -O0
-R8
+R10
 vpract1_vlg_sample_tst
 !i10b 1
-!s100 iWW4V=d0kR9Ci[8Ok1^lJ1
-I0M@N^<W6UB5F55CHV8jA^1
-Vk<[Zzl`L8SJgn@UCG6[3L1
-R3
-R13
-R14
-R15
-L0 29
-R7
-r1
-!s85 0
-31
+Z22 !s100 iWW4V=d0kR9Ci[8Ok1^lJ1
+Z23 I0M@N^<W6UB5F55CHV8jA^1
+Z24 Vk<[Zzl`L8SJgn@UCG6[3L1
+R4
 R16
 R17
 R18
-!s101 -O0
+L0 29
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
 vpract1_vlg_vec_tst
 !i10b 1
-!s100 3<7]dUk[7MAPRFM:gh;WP1
-IToQ;WGfAV`mc2fHlX>96O0
-VeEcUU]X[gL;[1R@LP]84C2
-R3
-R13
-R14
-R15
-L0 158
-R7
-r1
-!s85 0
-31
+Z25 !s100 3<7]dUk[7MAPRFM:gh;WP1
+Z26 IToQ;WGfAV`mc2fHlX>96O0
+Z27 VeEcUU]X[gL;[1R@LP]84C2
+R4
 R16
 R17
 R18
-!s101 -O0
+Z28 L0 158
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

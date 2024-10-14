@@ -1,7 +1,7 @@
 vendor_name = ModelSim
-source_file = 1, B:/Quartus/quartus/practs/AVMiS/pract6/pract6.bdf
-source_file = 1, B:/Quartus/quartus/practs/AVMiS/pract6/Waveform.vwf
-source_file = 1, B:/Quartus/quartus/practs/AVMiS/pract6/db/pract6.cbx.xml
+source_file = 1, D:/Program_Files/QuartusIIWeb13/practs/pract6/pract6.bdf
+source_file = 1, D:/Program_Files/QuartusIIWeb13/practs/pract6/Waveform.vwf
+source_file = 1, D:/Program_Files/QuartusIIWeb13/practs/pract6/db/pract6.cbx.xml
 design_name = pract6
 instance = comp, \q[3]~output , q[3]~output, pract6, 1
 instance = comp, \q[2]~output , q[2]~output, pract6, 1

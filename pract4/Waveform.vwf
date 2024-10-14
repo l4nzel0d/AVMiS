@@ -152,7 +152,7 @@ SIGNAL("Y7")
 	PARENT = "";
 }
 
-GROUP("x")
+GROUP("X")
 {
 	MEMBERS = "X0", "X1", "X2";
 }
@@ -289,7 +289,7 @@ TRANSITION_LIST("Y7")
 
 DISPLAY_LINE
 {
-	CHANNEL = "x";
+	CHANNEL = "X";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 0;

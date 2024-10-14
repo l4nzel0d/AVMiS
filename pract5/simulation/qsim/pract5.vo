@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
-// DATE "10/07/2024 16:47:54"
+// DATE "10/14/2024 19:56:00"
 
 // 
 // Device: Altera EP4CGX15BF14C6 Package FBGA169
@@ -88,14 +88,14 @@ wire \X[2]~input_o ;
 wire \E~input_o ;
 wire \X[1]~input_o ;
 wire \X[0]~input_o ;
-wire [3:0] \inst|LPM_DECODE_component|auto_generated|w_anode78w ;
-wire [3:0] \inst|LPM_DECODE_component|auto_generated|w_anode68w ;
-wire [3:0] \inst|LPM_DECODE_component|auto_generated|w_anode58w ;
-wire [3:0] \inst|LPM_DECODE_component|auto_generated|w_anode48w ;
 wire [3:0] \inst|LPM_DECODE_component|auto_generated|w_anode38w ;
 wire [3:0] \inst|LPM_DECODE_component|auto_generated|w_anode28w ;
 wire [3:0] \inst|LPM_DECODE_component|auto_generated|w_anode1w ;
 wire [3:0] \inst|LPM_DECODE_component|auto_generated|w_anode18w ;
+wire [3:0] \inst|LPM_DECODE_component|auto_generated|w_anode58w ;
+wire [3:0] \inst|LPM_DECODE_component|auto_generated|w_anode78w ;
+wire [3:0] \inst|LPM_DECODE_component|auto_generated|w_anode68w ;
+wire [3:0] \inst|LPM_DECODE_component|auto_generated|w_anode48w ;
 
 
 // Location: IOOBUF_X14_Y0_N9

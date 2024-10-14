@@ -1,5 +1,5 @@
 EDA Netlist Writer report for pract4
-Mon Oct 07 16:38:38 2024
+Mon Oct 14 19:48:30 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Oct 07 16:38:38 2024 ;
+; EDA Netlist Writer Status ; Successful - Mon Oct 14 19:48:30 2024 ;
 ; Revision Name             ; pract4                                ;
 ; Top-level Entity Name     ; pract4                                ;
 ; Family                    ; Cyclone IV GX                         ;
@@ -93,12 +93,12 @@ Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: programming logic devices manufactured by Altera and sold by 
     Info: Altera or its authorized distributors.  Please refer to the 
     Info: applicable agreement for further details.
-    Info: Processing started: Mon Oct 07 16:38:37 2024
+    Info: Processing started: Mon Oct 14 19:48:29 2024
 Info: Command: quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=D:/Program_Files/QuartusIIWeb13/practs/pract4/simulation/qsim/ pract4 -c pract4
 Info (204019): Generated file pract4.vo in folder "D:/Program_Files/QuartusIIWeb13/practs/pract4/simulation/qsim//" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4604 megabytes
-    Info: Processing ended: Mon Oct 07 16:38:38 2024
+    Info: Peak virtual memory: 4607 megabytes
+    Info: Processing ended: Mon Oct 14 19:48:30 2024
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 

@@ -1,5 +1,5 @@
 Flow report for pract2
-Mon Oct 07 16:23:37 2024
+Mon Oct 14 19:35:23 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Mon Oct 07 16:23:37 2024      ;
+; Flow Status                        ; Successful - Mon Oct 14 19:35:23 2024      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; pract2                                     ;
 ; Top-level Entity Name              ; pract2                                     ;
@@ -68,7 +68,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/07/2024 16:22:43 ;
+; Start date & time ; 10/14/2024 19:30:31 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; pract2              ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ applicable agreement for further details.
 +-------------------------------------+----------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                                          ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 31672451573415.172830736304832                                 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 31672451573415.172892343114516                                 ; --            ; --          ; --             ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                                                             ; --            ; --          ; eda_simulation ;
 ; EDA_NETLIST_WRITER_OUTPUT_DIR       ; D:/Program_Files/QuartusIIWeb13/practs/pract2/simulation/qsim/ ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                                                    ; --            ; --          ; eda_simulation ;
@@ -96,14 +96,14 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4668 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:06     ; 1.0                     ; 5091 MB             ; 00:00:02                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:00                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4642 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4592 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4604 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4604 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:11     ; --                      ; --                  ; 00:00:04                           ;
+; Analysis & Synthesis      ; 00:00:00     ; 1.0                     ; 4671 MB             ; 00:00:00                           ;
+; Fitter                    ; 00:00:04     ; 1.0                     ; 5107 MB             ; 00:00:02                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4640 MB             ; 00:00:00                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4645 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4595 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4608 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4607 MB             ; 00:00:00                           ;
+; Total                     ; 00:00:06     ; --                      ; --                  ; 00:00:02                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -8,7 +8,7 @@ Z1 !s100 R8Wjzca[`6Gn=nb4`Em`51
 Z2 I0zZ_dVXY0ZDA66>djm7b22
 Z3 VP`2f@=S:LflG>XHY0EGWB0
 Z4 dD:\Program_Files\QuartusIIWeb13\practs\pract4\simulation\qsim
-Z5 w1728308318
+Z5 w1728924510
 Z6 8pract4.vo
 Z7 Fpract4.vo
 L0 31
@@ -19,7 +19,7 @@ Z9 !s90 -work|work|pract4.vo|
 Z10 o-work work -O0
 !i10b 1
 !s85 0
-Z11 !s108 1728308318.443000
+Z11 !s108 1728924510.777000
 Z12 !s107 pract4.vo|
 !s101 -O0
 vpract4_vlg_check_tst
@@ -28,7 +28,7 @@ Z13 !s100 H4T2ig>0jgMK9dA^DcV151
 Z14 ICjc9W`7m<D_IaJYD[0D3Q0
 Z15 Va[hh=CocW5[gG8X_1CaXd2
 R4
-Z16 w1728308317
+Z16 w1728924509
 Z17 8Waveform.vwf.vt
 Z18 FWaveform.vwf.vt
 L0 63
@@ -36,7 +36,7 @@ R8
 r1
 !s85 0
 31
-Z19 !s108 1728308318.496000
+Z19 !s108 1728924510.849000
 Z20 !s107 Waveform.vwf.vt|
 Z21 !s90 -work|work|Waveform.vwf.vt|
 !s101 -O0
@@ -62,14 +62,14 @@ R21
 R10
 vpract4_vlg_vec_tst
 !i10b 1
-!s100 ICjWGW6RFAV7;9d0L[81c2
-Ic@4gFXfg4<;]DIP8JegaW1
-Z25 VIQRD9WL;l<4bdb4XNBR_93
+Z25 !s100 ICjWGW6RFAV7;9d0L[81c2
+Z26 Ic@4gFXfg4<;]DIP8JegaW1
+Z27 VIQRD9WL;l<4bdb4XNBR_93
 R4
 R16
 R17
 R18
-Z26 L0 347
+Z28 L0 347
 R8
 r1
 !s85 0

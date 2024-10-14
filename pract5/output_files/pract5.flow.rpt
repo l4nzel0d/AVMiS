@@ -1,5 +1,5 @@
 Flow report for pract5
-Mon Oct 07 16:47:54 2024
+Mon Oct 14 19:56:00 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Mon Oct 07 16:47:54 2024      ;
+; Flow Status                        ; Successful - Mon Oct 14 19:56:00 2024      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; pract5                                     ;
 ; Top-level Entity Name              ; pract5                                     ;
@@ -68,29 +68,39 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/07/2024 16:45:57 ;
+; Start date & time ; 10/14/2024 19:55:16 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; pract5              ;
 +-------------------+---------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                    ;
-+-------------------------------------+--------------------------------+---------------+-------------+----------------+
-; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id     ;
-+-------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 31672451573415.172830875715616 ; --            ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                           ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)         ; <None>        ; --          ; --             ;
-; IP_TOOL_NAME                        ; LPM_DECODE                     ; --            ; --          ; --             ;
-; IP_TOOL_VERSION                     ; 13.1                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; lpm_decode0.bsf                ; --            ; --          ; --             ;
-; MISC_FILE                           ; lpm_decode0.cmp                ; --            ; --          ; --             ;
-; PARTITION_COLOR                     ; 16764057                       ; --            ; --          ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; --          ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --          ; --             ;
-+-------------------------------------+--------------------------------+---------------+-------------+----------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                    ;
++-------------------------------------+----------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                                                          ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+----------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 31672451573415.172892491612768                                 ; --            ; --          ; --             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                                                             ; --            ; --          ; eda_simulation ;
+; EDA_NETLIST_WRITER_OUTPUT_DIR       ; D:/Program_Files/QuartusIIWeb13/practs/pract5/simulation/qsim/ ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                                                    ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)                                      ; <None>        ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_DECODE                                                     ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_DECODE                                                     ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_DECODE                                                     ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                           ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_decode0.bsf                                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_decode0.cmp                                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_decode1.bsf                                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_decode1.cmp                                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_decode2.bsf                                                ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_decode2.cmp                                                ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                                                       ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                                          ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                         ; --            ; --          ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                   ; --            ; --          ; --             ;
++-------------------------------------+----------------------------------------------------------------+---------------+-------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -98,14 +108,14 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4718 MB             ; 00:00:00                           ;
-; Fitter                    ; 00:00:03     ; 1.0                     ; 5099 MB             ; 00:00:02                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 4640 MB             ; 00:00:00                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4654 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4597 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4604 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4604 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:08     ; --                      ; --                  ; 00:00:03                           ;
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4714 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:04     ; 1.0                     ; 5091 MB             ; 00:00:02                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4644 MB             ; 00:00:00                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4661 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4595 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4607 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4607 MB             ; 00:00:00                           ;
+; Total                     ; 00:00:07     ; --                      ; --                  ; 00:00:04                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -132,8 +142,8 @@ quartus_fit --read_settings_files=off --write_settings_files=off pract5 -c pract
 quartus_asm --read_settings_files=off --write_settings_files=off pract5 -c pract5
 quartus_sta pract5 -c pract5
 quartus_eda --read_settings_files=off --write_settings_files=off pract5 -c pract5
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog pract5 -c pract5 --vector_source=D:/Program_Files/QuartusIIWeb13/pract5/Waveform.vwf --testbench_file=D:/Program_Files/QuartusIIWeb13/pract5/simulation/qsim/Waveform.vwf.vt
-quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=D:/Program_Files/QuartusIIWeb13/pract5/simulation/qsim/ pract5 -c pract5
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog pract5 -c pract5 --vector_source=D:/Program_Files/QuartusIIWeb13/practs/pract5/Waveform.vwf --testbench_file=D:/Program_Files/QuartusIIWeb13/practs/pract5/simulation/qsim/Waveform.vwf.vt
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=D:/Program_Files/QuartusIIWeb13/practs/pract5/simulation/qsim/ pract5 -c pract5
 
 
 

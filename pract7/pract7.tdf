@@ -10,7 +10,7 @@ VARIABLE
 	newq3, newq2, newq1, newq0 : NODE;	
 BEGIN
     state3.clk = clock;  
-	state2.clk = clock; 
+	 state2.clk = clock; 
     state1.clk = clock;  
     state0.clk = clock;  
 
